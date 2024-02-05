@@ -1,0 +1,27 @@
+<div id="portfolio" class="p-5">
+  <h2>PORTFOLIO COMPONENT</h2>
+  <div class="starEdit my-3">
+    <div class="star me-2"></div>
+    <i class="fa-solid fa-star"></i>
+    <div class="star ms-2"></div>
+  </div>
+  <div class="container my-3">
+    <div class="row gy-4">
+      <div class="col-md-4" *ngFor="let image of images">
+        <div class="image">
+          <img
+            src="{{ image.imgSrc }}"
+            alt="{{ image.imgAlt }}"
+            class="w-100 rounded-2"
+          />
+          <div class="layer w-100 rounded-2" (click)="openModal(image.imgSrc)">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="imagePerview" (click)="closeModal()" *ngIf="showModal == true">
+      <img src="{{ selectedImage }}" alt="" />
+    </div>
+  </div>
+</div>

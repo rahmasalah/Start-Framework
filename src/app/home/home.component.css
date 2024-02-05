@@ -1,0 +1,32 @@
+#home {
+  background-color: #1abc9c;
+  height: 550px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 6.25rem !important;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.starEdit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star {
+  width: 120px;
+  height: 4px;
+  background-color: #fff;
+}

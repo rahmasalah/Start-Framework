@@ -1,0 +1,67 @@
+#contact {
+  margin-top: 6.25rem;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #2c3e50;
+}
+
+h2 {
+  font-size: 2.375rem;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 62.5rem !important;
+  /* margin-right: 6.25rem; */
+}
+
+.starEdit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star {
+  width: 7.5rem;
+  height: 0.25rem;
+  background-color: #2c3e50;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: none;
+}
+
+input {
+  border: none !important;
+  border-bottom: 1px solid #2c3e5090 !important;
+  border-radius: 0 !important;
+}
+
+.editInput {
+  position: relative;
+  overflow: hidden;
+}
+
+.mybtn {
+  background-color: #1abc9c;
+  color: #fff;
+  font-weight: 500;
+}
+
+.labelEditt {
+  position: absolute !important;
+  top: 100% !important;
+  left: 0;
+}
+
+.labelEdit {
+  top: 0 !important;
+  color: #1abc9c;
+  transition: all 1s;
+}

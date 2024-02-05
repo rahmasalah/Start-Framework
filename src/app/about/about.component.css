@@ -1,0 +1,27 @@
+#about {
+  height: 40.625rem;
+
+  background-color: #1abc9c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.starEdit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star {
+  width: 7.5rem;
+  height: 0.25rem;
+  background-color: #fff;
+}

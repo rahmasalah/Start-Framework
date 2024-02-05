@@ -1,0 +1,80 @@
+<div id="contact" class="p-5">
+  <div class="details">
+    <h2>CONATCT SECTION</h2>
+    <div class="starEdit my-3">
+      <div class="star me-2"></div>
+      <i class="fa-solid fa-star"></i>
+      <div class="star ms-2"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="my-4">
+      <div
+        *ngIf="nameInput.length > 0"
+        [ngClass]="{ labelEdit: nameInput.length > 0 }"
+      >
+        <label for="userName" class="ps-1">Name</label>
+      </div>
+      <input
+        type="text"
+        id="userName"
+        [(ngModel)]="nameInput"
+        class="w-100 form-control ps-1"
+        placeholder="Name"
+      />
+    </div>
+
+    <div class="mb-4">
+      <div
+        *ngIf="ageInput.length > 0"
+        [ngClass]="{ labelEdit: ageInput.length > 0 }"
+      >
+        <label for="userage" class="ps-1">Age</label>
+      </div>
+      <input
+        type="text"
+        id="userage"
+        [(ngModel)]="ageInput"
+        class="w-100 form-control ps-1"
+        placeholder="age"
+        maxlength="2"
+      />
+    </div>
+
+    <div class="mb-4">
+      <div
+        *ngIf="emailInput.length > 0"
+        [ngClass]="{ labelEdit: emailInput.length > 0 }"
+      >
+        <label for="useremail" class="ps-1">Email</label>
+      </div>
+      <input
+        type="text"
+        id="useremail"
+        [(ngModel)]="emailInput"
+        class="w-100 form-control ps-1"
+        placeholder="Email"
+      />
+    </div>
+
+    <div class="mb-4">
+      <div
+        *ngIf="passwordInput.length > 0"
+        [ngClass]="{ labelEdit: passwordInput.length > 0 }"
+      >
+        <label for="userpassword" class="ps-1">Password</label>
+      </div>
+      <input
+        type="text"
+        id="userpassword"
+        [(ngModel)]="passwordInput"
+        class="w-100 form-control ps-1"
+        placeholder="Password"
+      />
+    </div>
+
+    <button class="mybtn rounded-2 px-3 py-2 border-0 ms-0 my-3">
+      Send a message
+    </button>
+  </div>
+</div>
