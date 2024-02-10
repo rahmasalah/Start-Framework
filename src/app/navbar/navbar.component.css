@@ -12,18 +12,23 @@
 .nav-item a {
   color: #fff;
   margin-right: 7px !important;
-}
-
-.activation {
   padding-inline: 0.75rem;
   padding-block: 0.5rem;
   border-radius: 0.625rem;
+}
+
+.activation {
   background-color: #1abc9c;
-  width: fit-content;
 }
 
 .navbar-toggler-icon {
+  color: #fff !important;
+}
+
+.navbar-toggler {
+  /* color: #fff !important; */
   box-shadow: 0 0 0 transparent !important;
+  border: transparent !important;
 }
 
 .scrolled {
