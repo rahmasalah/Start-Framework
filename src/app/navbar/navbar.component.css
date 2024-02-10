@@ -19,6 +19,7 @@
   padding-block: 0.5rem;
   border-radius: 0.625rem;
   background-color: #1abc9c;
+  width: fit-content;
 }
 
 .navbar-toggler-icon {
